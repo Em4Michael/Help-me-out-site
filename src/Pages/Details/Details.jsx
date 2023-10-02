@@ -6,7 +6,7 @@ import './Details.css'
 
 function Details() {
   return (
-    <>
+    <> 
      <Header />
     <main>
     

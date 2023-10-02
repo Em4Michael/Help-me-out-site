@@ -13,12 +13,12 @@ function Navbar() {
         </div>
         <nav>
           <ul className="flex gap-7 font-workSans font-semibold text-base">
-            <li>Features</li>
+          <Link to="/send" > <li>Features</li> </Link> 
             <li>How It Works</li>
           </ul>
         </nav>
         <div>
-        <Link to="/send" >  <button className="font-sora text-bas text-primary">
+        <Link to="/auth/login" >  <button className="font-sora text-bas text-primary">
             Get Started
           </button>  </Link> 
         </div>
