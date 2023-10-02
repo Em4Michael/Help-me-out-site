@@ -22,9 +22,9 @@ function Header() {
                     </div>
                 </div>
                 <div>
-                    <div className='action'>
+                <Link to="/auth/login" >  <div className='action'>
                         Get Started
-                    </div>
+                    </div></Link> 
                 </div>
             </div>
         </header>
