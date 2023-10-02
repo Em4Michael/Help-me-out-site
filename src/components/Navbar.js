@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
@@ -7,7 +8,7 @@ function Navbar() {
         <div className=" flex gap-2 items-center">
           <img src={logo} alt="logo" />
           <h4 className="font-bold text-base text-primary  font-inter">
-            HelpMeOut
+            HelpMeOuts
           </h4>
         </div>
         <nav>
@@ -17,9 +18,9 @@ function Navbar() {
           </ul>
         </nav>
         <div>
-          <button className="font-sora text-bas text-primary">
+        <Link to="/send" >  <button className="font-sora text-bas text-primary">
             Get Started
-          </button>
+          </button>  </Link> 
         </div>
       </div>
     </div>

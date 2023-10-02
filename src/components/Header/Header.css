@@ -1,0 +1,52 @@
+header {
+    margin: auto;
+width: 100vw;
+height: 4rem;
+align-items: center;
+background-color: #fff;
+display: flex;
+}
+
+.header-container {
+    width: 80%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: auto;
+}
+.icon-container{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.home-icon{
+    width:  2.5rem;
+    height: 2.5rem;
+}
+.icon-text{
+    color:  #100A42;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.center-header{
+    color: #000;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+gap: 1rem;
+}
+.action{
+    color: var(--primary-main, #120B48);
+text-align: center;
+font-family: Sora;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

@@ -1,0 +1,60 @@
+.Ready-container{
+    display: flex;
+height: 467px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.Ready-title{
+    color: #141414;
+font-family: Sora;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.Ready-file-name{
+    color: #727272;
+font-family: Sora;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Ready-container-file-input{
+    display: flex;
+    align-items: center;
+}
+.Ready-file-input-box{
+    color: #413C6D;
+font-family: Sora;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.Ready-file-edit-icon{
+    display: flex;
+width: 32px;
+height: 32px;
+justify-content: center;
+align-items: center;
+}
+.Ready-email-container{
+    
+}
+.Ready-container-Video_url{
+    
+}
+.Ready-video-name{
+    
+}
+.Ready-file-link{
+    
+}
