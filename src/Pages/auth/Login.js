@@ -9,12 +9,7 @@ function Login() {
     <div>
       <div className="px-16 py-10">
         {" "}
-        <Link to="/" >  <div className=" flex gap-2 items-center">
-          <img src={logo} alt="logo" />
-          <h4 className="font-bold text-base text-primary  font-inter">
-            HelpMeOut
-          </h4>
-        </div> </Link> 
+        
         <div className="w-[100%] flex justify-center items-center">
           <div className=" w-[35%] h-[80vh] flex justify-center  ">
             <form>

@@ -16,7 +16,7 @@ function Hero() {
               Help your friends and loved ones by creating and sending videos on
               how to get things done on a website.
             </p>
-             <Link >
+             <Link to="https://drive.google.com/drive/folders/1lyqwslKcwivL84vkaLo43nfycP8oHKJs?usp=drive_link">
             <Button variant="primary" imgSrc={arrow} imgAlt="google">
              Install HelpMeOut
             </Button>
