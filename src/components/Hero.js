@@ -2,6 +2,9 @@ import React from "react";
 import { Button } from "./button/button";
 import arrow from "../assets/arrow-right.svg"
 import bg from "../assets/bg.png"
+import woman from '../assets/AdobeStock_400053098 1.png'
+import Laptop from '../assets/AdobeStock_362497671 1.png'
+import phone from '../assets/woman-using-smartphone-technology 2.png'
 import { Link } from "react-router-dom";
 function Hero() {
   return (
@@ -29,14 +32,16 @@ function Hero() {
             <ul class="grid grid-cols-2 grid-rows-4 gap-8 grid-flow-row">
               
               <li class=" bg-primary ">
-                <div class="w-[448px]  h-[200px]"></div>
+              <img className="w-[448px] h-[200px]" src={Laptop}/>
+                
               </li>
               <li class="row-span-2 bg-primary relative ">
-                <div class="w-[448px] h-[200px]"></div>
+             
+                <img className="w-[448px] h-[432px]" src={phone}/>
                 <img className="absolute -top-[50px] -right-[46px] z-10" src={bg}/>
               </li>
               <li class=" bg-primary ">
-                <div class="w-[448px]  h-[200px]"></div>
+                <img className="w-[448px] h-[200px]" src={woman}/>
               </li>
              
             </ul>
