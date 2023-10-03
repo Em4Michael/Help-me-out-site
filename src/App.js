@@ -20,7 +20,7 @@ function App() {
      {/*  <Route path="/send" exact  element={<Details/>}/> */}
       <Route path='/auth/login' element={<Login/>} />
       <Route path='/HowItWorks' element={<HowItWorks/>} />
-      <Route path='/Feature' element={<Ready/>} />
+      <Route path='/send' element={<Ready/>} />
     </Routes>
     <Footer />
    </Router>
