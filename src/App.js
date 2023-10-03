@@ -8,6 +8,10 @@ import Feature from "./components/Feature";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import Ready from "./components/Ready/Ready";
+import Recorded from "./Pages/Recorded";
+import DetailsPage from "./Pages/DetailsPage";
+
+
 
 function App() { 
   return (
@@ -20,7 +24,10 @@ function App() {
      {/*  <Route path="/send" exact  element={<Details/>}/> */}
       <Route path='/auth/login' element={<Login/>} />
       <Route path='/HowItWorks' element={<HowItWorks/>} />
-      <Route path='/send' element={<Ready/>} />
+      <Route path='/send' element={<DetailsPage/>} />
+      <Route path='/recorded' element={<Recorded/>} />
+      <Route path='/video-details' element={<DetailsPage/>} />
+   
     </Routes>
     <Footer />
    </Router>

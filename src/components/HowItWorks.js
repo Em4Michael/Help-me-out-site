@@ -2,6 +2,7 @@ import React from "react";
 import { feedback } from "../data/data";
 function HowItWorks() {
   return (
+    
     <div className="mt-48 px-16">
       <h4 className="font-sora text-secondary text-[40px] text-center font-bold">
         How it works
