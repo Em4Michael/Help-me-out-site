@@ -12,7 +12,7 @@ function AuthProfileMenu({ isAuthenticated }) {
           {" "}
           <nav>
             <ul className="flex gap-7 font-workSans font-semibold text-base">
-            <Link to="/Feature" >  <li>Features</li></Link> 
+            <Link to="/send" >  <li>Features</li></Link> 
             <Link to="HowItWorks" >    <li>How It Works</li></Link> 
             </ul>
             
